@@ -15,10 +15,10 @@ function getImage(n) {
     return $(`.image>img:nth-child(${x(n)})`)
 }
 function x(n) { 
-    if (n > 3) { 
-        n = n % 3
+    if (n > 5) { 
+        n = n % 5
         if (n === 0) { 
-            n=3
+            n=5
         }
     }
     return n
